@@ -11,6 +11,7 @@ object Form2: TForm2
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  OnShow = FormShow
   PixelsPerInch = 96
   TextHeight = 13
   object lbl2: TLabel
@@ -29,14 +30,14 @@ object Form2: TForm2
   end
   object lbl4: TLabel
     Left = 128
-    Top = 80
+    Top = 112
     Width = 57
     Height = 13
     Caption = 'Nama Siswa'
   end
   object lbl5: TLabel
     Left = 128
-    Top = 112
+    Top = 80
     Width = 14
     Height = 13
     Caption = 'Nik'
@@ -116,6 +117,7 @@ object Form2: TForm2
     TitleFont.Height = -11
     TitleFont.Name = 'Tahoma'
     TitleFont.Style = []
+    OnCellClick = dbgrd1CellClick
   end
   object btn1: TButton
     Left = 104
@@ -133,6 +135,7 @@ object Form2: TForm2
     Height = 49
     Caption = 'SIMPAN'
     TabOrder = 2
+    OnClick = btn2Click
   end
   object btn3: TButton
     Left = 320
@@ -141,6 +144,7 @@ object Form2: TForm2
     Height = 49
     Caption = 'EDIT'
     TabOrder = 3
+    OnClick = btn3Click
   end
   object btn5: TButton
     Left = 528
@@ -149,6 +153,7 @@ object Form2: TForm2
     Height = 49
     Caption = 'BATAL'
     TabOrder = 4
+    OnClick = btn5Click
   end
   object edt2: TEdit
     Left = 200
@@ -243,6 +248,7 @@ object Form2: TForm2
     Height = 49
     Caption = 'HAPUS'
     TabOrder = 17
+    OnClick = btn4Click
   end
   object edt1: TEdit
     Left = 200
