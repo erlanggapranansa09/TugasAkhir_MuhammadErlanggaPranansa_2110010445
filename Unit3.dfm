@@ -1,6 +1,6 @@
 object Form3: TForm3
-  Left = 389
-  Top = 264
+  Left = 475
+  Top = 240
   Width = 1044
   Height = 540
   Caption = 'Form3'
@@ -55,6 +55,19 @@ object Form3: TForm3
     Width = 10
     Height = 13
     Caption = 'Jk'
+  end
+  object lbl1: TLabel
+    Left = 432
+    Top = 16
+    Width = 122
+    Height = 23
+    Caption = 'TABEL ORTU'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
   end
   object dbgrd1: TDBGrid
     Left = 80
@@ -182,7 +195,6 @@ object Form3: TForm3
   end
   object zqry1: TZQuery
     Connection = con1
-    Active = True
     SQL.Strings = (
       'SELECT * FROM tabel_ortu')
     Params = <>

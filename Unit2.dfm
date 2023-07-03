@@ -1,6 +1,6 @@
 object Form2: TForm2
-  Left = 380
-  Top = 258
+  Left = 495
+  Top = 201
   Width = 1044
   Height = 540
   Caption = 'Form2'
@@ -104,6 +104,19 @@ object Form2: TForm2
     Width = 31
     Height = 13
     Caption = 'Status'
+  end
+  object lbl1: TLabel
+    Left = 656
+    Top = 8
+    Width = 124
+    Height = 23
+    Caption = 'DATA SISWA'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
   end
   object dbgrd1: TDBGrid
     Left = 104
